@@ -62,8 +62,12 @@ b.adicionarLivro(l1);
 b.buscarLivro(l1);
 const p1 = new Produto("O senhor dos aneis", 300);
 const p2 = new Produto("In to the pit", 100);
+const p3 = new Produto("Mascara", 400);
 const p = new Pedido();
 p.adicionarProduto(p1);
 p.adicionarProduto(p2);
+p.adicionarProduto(p3);
+p.calcularTotal();
+p.removerProduto(p3);
 p.calcularTotal();
 
