@@ -1,3 +1,4 @@
+//so pra pegar
 class Produto {
   nome: string;
   preco: number;
