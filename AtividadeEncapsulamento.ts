@@ -1,16 +1,18 @@
-/* class Funcionario{
+class Funcionario{
     constructor(public nome: string, private salario: number){}
 
-    getSalario(): Number{
+    getSalario(): number{
         return this.salario;
     }
 
     setSalario(valor: number){
+        this.salario += valor;
         if(valor < 1518){
             console.log(`Valor menor que o salario minimo vigente`);
             return;
-        }
+        } else{
         console.log(`Seu salario é de ${this.salario.toFixed(2)}`);
+        }
     }
 
     exibirDados():void{
@@ -20,9 +22,8 @@
 
 const f = new Funcionario("Ricardo", 0);
 const f2 = new Funcionario("Edgar", 0);
-f.getSalario();
-f.setSalario(1600);
- */
+f.setSalario(1400);
+ 
 
 /* 
 class Aluno{
@@ -44,7 +45,7 @@ class Aluno{
 const n1 = new Aluno(10);
 n1.setnota(); */
 
-class Carro{
+/* class Carro{
     constructor(private velocidade: number = 0){}
 
     acelerar(c:number): void {
@@ -60,5 +61,5 @@ class Carro{
     }
 }
 const v1 = new Carro();
-v1.acelerar(150);
-v1.frear(0);
+v1.frear(40);
+ */
