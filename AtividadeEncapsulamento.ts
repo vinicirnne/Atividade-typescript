@@ -22,7 +22,7 @@ class Funcionario{
 
 const f = new Funcionario("Ricardo", 0);
 const f2 = new Funcionario("Edgar", 0);
-f.setSalario(1400);
+f.setSalario(35500);
  
 
 /* 
